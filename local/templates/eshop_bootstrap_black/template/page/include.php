@@ -1,6 +1,5 @@
 <?php
 
-<<<<<<< HEAD
 $currentSection = function () use ($APPLICATION) {
     $url_page           = $APPLICATION->GetCurPage(false);
 
@@ -24,12 +23,6 @@ switch ($currentSection()) {
     case '/catalog/':
         $page_template_name = 'custom/2';
         break;
-=======
-switch ($APPLICATION->GetCurPage(false)) {
-    case '/':
-        $page_template_name = 'custom/1';
-        break;
->>>>>>> 38ecbcc0d251fd1806ca88c676a916034b6d3d62
     default:
         $page_template_name = '.default';
         break;
