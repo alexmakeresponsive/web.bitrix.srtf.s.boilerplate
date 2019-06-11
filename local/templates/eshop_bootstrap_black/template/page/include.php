@@ -10,6 +10,7 @@ $currentSection = function () use ($APPLICATION) {
 
     switch ($url_page) {
         case '/personal/cart/':
+        case '/personal/order/make/':
             return $url_page;
     }
 
