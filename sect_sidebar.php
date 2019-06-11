@@ -6,7 +6,7 @@
 			"TOP_COUNT" => "5",
 			"CHECK_DATES" => "N",
 			"SHOW_OTHERS" => "N",
-			"PAGE" => SITE_DIR."catalog/",
+			"PAGE" => SITE_DIR."local/templates/eshop_bootstrap_black/include/page/catalog/",
 			"CATEGORY_0_TITLE" => "Товары" ,
 			"CATEGORY_0" => array(
 				0 => "iblock_catalog",
@@ -37,7 +37,7 @@
 		"",
 		Array(
 			"AREA_FILE_SHOW" => "file",
-			"PATH" => SITE_DIR."include/socnet_sidebar.php",
+			"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/socnet_sidebar.php",
 			"AREA_FILE_RECURSIVE" => "N",
 			"EDIT_MODE" => "html",
 		),
@@ -52,7 +52,7 @@
 		"",
 		Array(
 			"AREA_FILE_SHOW" => "file",
-			"PATH" => SITE_DIR."include/sender.php",
+			"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/sender.php",
 			"AREA_FILE_RECURSIVE" => "N",
 			"EDIT_MODE" => "html",
 		),
@@ -67,7 +67,7 @@
 		"",
 		Array(
 			"AREA_FILE_SHOW" => "file",
-			"PATH" => SITE_DIR."include/about.php",
+			"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/about.php",
 			"AREA_FILE_RECURSIVE" => "N",
 			"EDIT_MODE" => "html",
 		),
@@ -82,7 +82,7 @@
 		"",
 		Array(
 			"AREA_FILE_SHOW" => "file",
-			"PATH" => SITE_DIR."include/twitter.php",
+			"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/twitter.php",
 			"AREA_FILE_RECURSIVE" => "N",
 			"EDIT_MODE" => "html",
 		),
@@ -97,7 +97,7 @@
 		"",
 		Array(
 			"AREA_FILE_SHOW" => "file",
-			"PATH" => SITE_DIR."include/info.php",
+			"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/info.php",
 			"AREA_FILE_RECURSIVE" => "N",
 			"EDIT_MODE" => "html",
 		),
