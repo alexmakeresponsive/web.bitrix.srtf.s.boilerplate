@@ -42,29 +42,45 @@ $arUrlRewrite=array (
   ),
   6 =>
   array (
+    'CONDITION' => '#^/rest/#',
+    'RULE' => '',
+    'ID' => NULL,
+    'PATH' => '/bitrix/services/rest/index.php',
+    'SORT' => 100,
+  ),
+  21 =>
+  array (
     'CONDITION' => '#^/personal/order/#',
     'RULE' => '',
     'ID' => 'bitrix:sale.personal.order',
-    'PATH' => '/personal/order/index.php',
+    'PATH' => '/local/templates/eshop_bootstrap_black/include/page/personal/order/make/index.php',
     'SORT' => 100,
   ),
-  7 =>
+  22 =>
+  array (
+    'CONDITION' => '#^/personal/cart/#',
+    'RULE' => '',
+    'ID' => 'bitrix:sale.personal.cart',
+    'PATH' => '/local/templates/eshop_bootstrap_black/include/page/personal/cart/index.php',
+    'SORT' => 100,
+  ),
+  23 =>
   array (
     'CONDITION' => '#^/personal/#',
     'RULE' => '',
     'ID' => 'bitrix:sale.personal.section',
-    'PATH' => '/personal/index.php',
+    'PATH' => '/local/templates/eshop_bootstrap_black/include/page/personal/index.php',
     'SORT' => 100,
   ),
-  8 =>
+  41 =>
   array (
     'CONDITION' => '#^/catalog/#',
     'RULE' => '',
     'ID' => 'bitrix:catalog',
-    'PATH' => '/catalog/index.php',
+    'PATH' => '/local/templates/eshop_bootstrap_black/include/page/catalog/index.php',
     'SORT' => 100,
   ),
-  9 =>
+  61 =>
   array (
     'CONDITION' => '#^/store/#',
     'RULE' => '',
@@ -72,20 +88,60 @@ $arUrlRewrite=array (
     'PATH' => '/store/index.php',
     'SORT' => 100,
   ),
-  10 =>
-  array (
-    'CONDITION' => '#^/rest/#',
-    'RULE' => '',
-    'ID' => NULL,
-    'PATH' => '/bitrix/services/rest/index.php',
-    'SORT' => 100,
-  ),
-  11 =>
+  81 =>
   array (
     'CONDITION' => '#^/news/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
-    'PATH' => '/news/index.php',
+    'PATH' => '/local/templates/eshop_bootstrap_black/include/page/news/index.php',
+    'SORT' => 100,
+  ),
+  101 =>
+  array (
+    'CONDITION' => '#^/login/#',
+    'RULE' => '',
+    'ID' => NULL,
+    'PATH' => '/local/templates/eshop_bootstrap_black/include/page/login/index.php',
+    'SORT' => 100,
+  ),
+  121 =>
+  array (
+    'CONDITION' => '#^/about/contacts/#',
+    'RULE' => '',
+    'ID' => NULL,
+    'PATH' => '/local/templates/eshop_bootstrap_black/include/page/about/contacts/index.php',
+    'SORT' => 100,
+  ),
+  122 =>
+  array (
+    'CONDITION' => '#^/about/delivery/#',
+    'RULE' => '',
+    'ID' => NULL,
+    'PATH' => '/local/templates/eshop_bootstrap_black/include/page/about/delivery/index.php',
+    'SORT' => 100,
+  ),
+  123 =>
+  array (
+    'CONDITION' => '#^/about/guaranty/#',
+    'RULE' => '',
+    'ID' => NULL,
+    'PATH' => '/local/templates/eshop_bootstrap_black/include/page/about/guaranty/index.php',
+    'SORT' => 100,
+  ),
+  124 =>
+  array (
+    'CONDITION' => '#^/about/howto/#',
+    'RULE' => '',
+    'ID' => NULL,
+    'PATH' => '/local/templates/eshop_bootstrap_black/include/page/about/howto/index.php',
+    'SORT' => 100,
+  ),
+  125 =>
+  array (
+    'CONDITION' => '#^/about/#',
+    'RULE' => '',
+    'ID' => NULL,
+    'PATH' => '/local/templates/eshop_bootstrap_black/include/page/about/index.php',
     'SORT' => 100,
   ),
 );
