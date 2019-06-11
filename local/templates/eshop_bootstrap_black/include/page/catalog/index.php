@@ -166,9 +166,9 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 	"DETAIL_BRAND_USE" => "Y",
 	"DETAIL_BRAND_PROP_CODE" => "BRAND_REF",
 	"COMPATIBLE_MODE" => "N",
-	"SIDEBAR_SECTION_SHOW" => "Y",
-	"SIDEBAR_DETAIL_SHOW" => "Y",
-	"SIDEBAR_PATH" => "/local/templates/eshop_bootstrap_black/include/page/catalog/sidebar.php",
+	// "SIDEBAR_SECTION_SHOW" => "Y",
+	// "SIDEBAR_DETAIL_SHOW" => "Y",
+	// "SIDEBAR_PATH" => "/local/templates/eshop_bootstrap_black/include/page/catalog/sidebar.php",
 	"SEF_URL_TEMPLATES" => array(
 		"sections" => "",
 		"section" => "#SECTION_CODE#/",
