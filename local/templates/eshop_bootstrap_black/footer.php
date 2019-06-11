@@ -6,9 +6,9 @@
 							"bitrix:main.include",
 							"",
 							Array(
-								"AREA_FILE_SHOW" => "sect",
-								"AREA_FILE_SUFFIX" => "sidebar",
-								"AREA_FILE_RECURSIVE" => "Y",
+								"AREA_FILE_SHOW" => "file",
+								"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/page/sidebar.php",
+								"AREA_FILE_RECURSIVE" => "N",
 								"EDIT_MODE" => "html",
 							),
 							false,
