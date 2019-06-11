@@ -19,7 +19,7 @@
 		"",
 		Array(
 			"AREA_FILE_SHOW" => "file",
-			"PATH" => SITE_DIR."include/socnet_sidebar.php",
+			"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/socnet_sidebar.php",
 			"AREA_FILE_RECURSIVE" => "N",
 			"EDIT_MODE" => "html",
 		),
@@ -34,7 +34,7 @@
 		"",
 		Array(
 			"AREA_FILE_SHOW" => "file",
-			"PATH" => SITE_DIR."include/sender.php",
+			"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/sender.php",
 			"AREA_FILE_RECURSIVE" => "N",
 			"EDIT_MODE" => "html",
 		),
@@ -49,7 +49,7 @@
 		"",
 		Array(
 			"AREA_FILE_SHOW" => "file",
-			"PATH" => SITE_DIR."include/about.php",
+			"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/about.php",
 			"AREA_FILE_RECURSIVE" => "N",
 			"EDIT_MODE" => "html",
 		),
@@ -57,4 +57,3 @@
 		Array('HIDE_ICONS' => 'N')
 	);?>
 </div>
-
