@@ -8,6 +8,11 @@ $currentSection = function () use ($APPLICATION) {
 
     $name_section_level_0 = reset($url_page_explode);
 
+    switch ($url_page) {
+        case '/personal/cart/':
+            return $url_page;
+    }
+
     switch ($name_section_level_0) {
         case 'catalog':
         case 'personal':
