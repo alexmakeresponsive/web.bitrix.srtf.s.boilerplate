@@ -21,7 +21,7 @@ switch ($currentSection()) {
         $page_template_name = 'custom/1';
         break;
     case '/catalog/':
-        $page_template_name = 'custom/2';
+        $page_template_name = '.default';
         break;
     default:
         $page_template_name = '.default';
