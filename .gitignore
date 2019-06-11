@@ -2,3 +2,6 @@
 
 /bitrix
 /upload
+
+/vendor
+composer.phar
