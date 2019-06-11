@@ -17,6 +17,7 @@ $currentSection = function () use ($APPLICATION) {
     switch ($name_section_level_0) {
         case 'catalog':
         case 'personal':
+        case 'about':
             return '/' . $name_section_level_0 . '/';
     }
 
@@ -32,6 +33,9 @@ switch ($currentSection()) {
         break;
     case '/personal/':
         $page_template_name = 'custom/3';
+        break;
+    case '/about/':
+        $page_template_name = 'custom/1';
         break;
     default:
         $page_template_name = '.default';
