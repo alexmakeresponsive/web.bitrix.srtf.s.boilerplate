@@ -30,31 +30,31 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/local/templates/' . SITE_TEMPLATE_ID 
 				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 					<div class="bx-logo">
 						<a class="bx-logo-block hidden-xs" href="<?=htmlspecialcharsbx(SITE_DIR)?>">
-							<?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/company_logo.php"), false);?>
+							<?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/company_logo.php"), false);?>
 						</a>
 						<a class="bx-logo-block hidden-lg hidden-md hidden-sm text-center" href="<?=htmlspecialcharsbx(SITE_DIR)?>">
-							<?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/company_logo_mobile.php"), false);?>
+							<?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/company_logo_mobile.php"), false);?>
 						</a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 					<div class="bx-inc-orginfo">
 						<div>
-							<span class="bx-inc-orginfo-phone"><i class="fa fa-phone"></i> <?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/telephone.php"), false);?></span>
+							<span class="bx-inc-orginfo-phone"><i class="fa fa-phone"></i> <?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/telephone.php"), false);?></span>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
 					<div class="bx-worktime">
 						<div class="bx-worktime-prop">
-							<?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/schedule.php"), false);?>
+							<?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/schedule.php"), false);?>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 hidden-xs">
 					<?$APPLICATION->IncludeComponent("bitrix:sale.basket.basket.line", "", array(
-							"PATH_TO_BASKET" => SITE_DIR."personal/cart/",
-							"PATH_TO_PERSONAL" => SITE_DIR."personal/",
+							"PATH_TO_BASKET" => SITE_DIR."local/templates/eshop_bootstrap_black/include/page/personal/cart/",
+							"PATH_TO_PERSONAL" => SITE_DIR."local/templates/eshop_bootstrap_black/include/page/personal/",
 							"SHOW_PERSONAL_LINK" => "N",
 							"SHOW_NUM_PRODUCTS" => "Y",
 							"SHOW_TOTAL_PRICE" => "Y",

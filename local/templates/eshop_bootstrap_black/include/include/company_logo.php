@@ -1,1 +1,1 @@
-<img src="/include/logo.png"  srcset="/include/logo_retina.png" />
+<img src="/local/templates/eshop_bootstrap_black/include/include/logo.png"  srcset="/local/templates/eshop_bootstrap_black/include/include/logo_retina.png" />
