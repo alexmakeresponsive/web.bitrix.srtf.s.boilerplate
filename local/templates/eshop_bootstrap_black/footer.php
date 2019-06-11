@@ -21,8 +21,8 @@
 					"bitrix:main.include",
 					"",
 					Array(
-						"AREA_FILE_SHOW" => "sect",
-						"AREA_FILE_SUFFIX" => "bottom",
+						"AREA_FILE_SHOW" => "file",
+						"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/bottom.php",
 						"AREA_FILE_RECURSIVE" => "N",
 						"EDIT_MODE" => "html",
 					),
