@@ -3,6 +3,8 @@ IncludeTemplateLangFile($_SERVER["DOCUMENT_ROOT"]."/local/templates/".SITE_TEMPL
 CJSCore::Init(array("fx"));
 $curPage = $APPLICATION->GetCurPage(true);
 $theme = COption::GetOptionString("main", "wizard_eshop_bootstrap_theme_id", "blue", SITE_ID);
+
+require_once $_SERVER['DOCUMENT_ROOT'] . '/local/templates/' . SITE_TEMPLATE_ID . '/template/page/include.php';
 ?>
 <!DOCTYPE html>
 <html xml:lang="<?=LANGUAGE_ID?>" lang="<?=LANGUAGE_ID?>">
@@ -152,12 +154,4 @@ $theme = COption::GetOptionString("main", "wizard_eshop_bootstrap_theme_id", "bl
 	</header>
 
 	<div class="workarea">
-		<div class="container bx-content-seection">
-			<div class="row">
-			<?
-			$hideSidebar =
-				defined("HIDE_SIDEBAR") && HIDE_SIDEBAR == true
-				|| preg_match("~^".SITE_DIR."(catalog|personal\\/cart|personal\\/order\\/make)/~", $curPage)
-			? true : false;
-			?>
-				<div class="bx-content <?=($hideSidebar ? "col-xs-12" : "col-md-9 col-sm-8")?>">
+		<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/local/templates/' . SITE_TEMPLATE_ID . '/template/page/template/' . PAGE_TEMPLATE_NAME . '/content-before.php'; ?>

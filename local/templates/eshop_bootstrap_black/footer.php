@@ -1,35 +1,23 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-					</div>
-					<?if (!$hideSidebar):?>
-					<div class="sidebar col-md-3 col-sm-4">
-						<?$APPLICATION->IncludeComponent(
-							"bitrix:main.include",
-							"",
-							Array(
-								"AREA_FILE_SHOW" => "file",
-								"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/page/sidebar.php",
-								"AREA_FILE_RECURSIVE" => "N",
-								"EDIT_MODE" => "html",
-							),
-							false,
-							Array('HIDE_ICONS' => 'Y')
-						);?>
-					</div><!--// sidebar -->
-					<?endif?>
-				</div><!--//row-->
-				<?$APPLICATION->IncludeComponent(
-					"bitrix:main.include",
-					"",
-					Array(
-						"AREA_FILE_SHOW" => "file",
-						"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/bottom.php",
-						"AREA_FILE_RECURSIVE" => "N",
-						"EDIT_MODE" => "html",
-					),
-					false,
-					Array('HIDE_ICONS' => 'Y')
-				);?>
-			</div><!--//container bx-content-seection-->
+
+			<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/local/templates/' . SITE_TEMPLATE_ID . '/template/page/template/' . PAGE_TEMPLATE_NAME . '/content-after.php'; ?>
+
+			<div class="container bx-content-seection">
+				<div class="row">
+					<?$APPLICATION->IncludeComponent(
+						"bitrix:main.include",
+						"",
+						Array(
+							"AREA_FILE_SHOW" => "file",
+							"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/bottom.php",
+							"AREA_FILE_RECURSIVE" => "N",
+							"EDIT_MODE" => "html",
+						),
+						false,
+						Array('HIDE_ICONS' => 'Y')
+					);?>
+				</div>
+			</div>
 		</div><!--//workarea-->
 
 		<footer class="bx-footer">
