@@ -168,7 +168,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 	"COMPATIBLE_MODE" => "N",
 	"SIDEBAR_SECTION_SHOW" => "Y",
 	"SIDEBAR_DETAIL_SHOW" => "Y",
-	"SIDEBAR_PATH" => "/catalog/sidebar.php",
+	"SIDEBAR_PATH" => "/local/templates/eshop_bootstrap_black/include/page/catalog/sidebar.php",
 	"SEF_URL_TEMPLATES" => array(
 		"sections" => "",
 		"section" => "#SECTION_CODE#/",

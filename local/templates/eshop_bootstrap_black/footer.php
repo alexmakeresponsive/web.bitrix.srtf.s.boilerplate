@@ -40,7 +40,7 @@
 						"",
 						Array(
 							"AREA_FILE_SHOW" => "file",
-							"PATH" => SITE_DIR."include/socnet_footer.php",
+							"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/socnet_footer.php",
 							"AREA_FILE_RECURSIVE" => "N",
 							"EDIT_MODE" => "html",
 						),
@@ -51,7 +51,7 @@
 			</div>
 			<div class="bx-footer-section container bx-center-section">
 				<div class="col-sm-5 col-md-3 col-md-push-6">
-					<h4 class="bx-block-title"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/about_title.php"), false);?></h4>
+					<h4 class="bx-block-title"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/about_title.php"), false);?></h4>
 					<?$APPLICATION->IncludeComponent("bitrix:menu", "bottom_menu", array(
 							"ROOT_MENU_TYPE" => "bottom",
 							"MAX_LEVEL" => "1",
@@ -66,7 +66,7 @@
 					);?>
 				</div>
 				<div class="col-sm-5 col-md-3">
-					<h4 class="bx-block-title"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/catalog_title.php"), false);?></h4>
+					<h4 class="bx-block-title"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/catalog_title.php"), false);?></h4>
 					<?$APPLICATION->IncludeComponent("bitrix:menu", "bottom_menu", array(
 							"ROOT_MENU_TYPE" => "left",
 							"MENU_CACHE_TYPE" => "A",
@@ -90,7 +90,7 @@
 							"",
 							Array(
 								"AREA_FILE_SHOW" => "file",
-								"PATH" => SITE_DIR."include/sender.php",
+								"PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/sender.php",
 								"AREA_FILE_RECURSIVE" => "N",
 								"EDIT_MODE" => "html",
 							),
@@ -104,22 +104,22 @@
 					<div class="bx-inclogofooter">
 						<div class="bx-inclogofooter-block">
 							<a class="bx-inclogofooter-logo" href="<?=htmlspecialcharsbx(SITE_DIR)?>">
-								<?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/company_logo_mobile.php"), false);?>
+								<?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/company_logo_mobile.php"), false);?>
 							</a>
 						</div>
 						<div class="bx-inclogofooter-block">
-							<div class="bx-inclogofooter-tel"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/telephone.php"), false);?></div>
-							<div class="bx-inclogofooter-worktime"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/schedule.php"), false);?></div>
+							<div class="bx-inclogofooter-tel"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/telephone.php"), false);?></div>
+							<div class="bx-inclogofooter-worktime"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/schedule.php"), false);?></div>
 						</div>
 						<div>
-							<?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/personal.php"), false);?>
+							<?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/personal.php"), false);?>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="bx-footer-bottomline">
 				<div class="bx-footer-section container">
-					<div class="col-sm-6"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/copyright.php"), false);?></div>
+					<div class="col-sm-6"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."local/templates/eshop_bootstrap_black/include/include/copyright.php"), false);?></div>
 					<div class="col-sm-6 bx-up"><a href="javascript:void(0)" data-role="eshopUpButton"><i class="fa fa-caret-up"></i> <?=GetMessage("FOOTER_UP_BUTTON")?></a></div>
 				</div>
 			</div>
@@ -127,9 +127,10 @@
 
 		</footer>
 		<div class="col-xs-12 hidden-lg hidden-md hidden-sm">
+			1-
 			<?$APPLICATION->IncludeComponent("bitrix:sale.basket.basket.line", "", array(
-					"PATH_TO_BASKET" => SITE_DIR."personal/cart/",
-					"PATH_TO_PERSONAL" => SITE_DIR."personal/",
+					"PATH_TO_BASKET" => SITE_DIR."local/templates/eshop_bootstrap_black/include/page/personal/cart/",
+					"PATH_TO_PERSONAL" => SITE_DIR."local/templates/eshop_bootstrap_black/include/page/personal/",
 					"SHOW_PERSONAL_LINK" => "N",
 					"SHOW_NUM_PRODUCTS" => "Y",
 					"SHOW_TOTAL_PRICE" => "Y",
@@ -138,8 +139,8 @@
 					"POSITION_HORIZONTAL" => "center",
 					"POSITION_VERTICAL" => "bottom",
 					"SHOW_AUTHOR" => "Y",
-					"PATH_TO_REGISTER" => SITE_DIR."login/",
-					"PATH_TO_PROFILE" => SITE_DIR."personal/"
+					"PATH_TO_REGISTER" => SITE_DIR."local/templates/eshop_bootstrap_black/include/page/login/",
+					"PATH_TO_PROFILE" => SITE_DIR."local/templates/eshop_bootstrap_black/include/page/personal/"
 				),
 				false,
 				array()
